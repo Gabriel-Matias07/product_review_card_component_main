@@ -1,0 +1,122 @@
+@media screen and (max-width: 767px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    .container{
+        width: 375px;
+        height: 100vh;
+        margin-top: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F3EAE3;
+    }
+    .main-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        margin: 15px;
+    }
+    .main-card img{
+        width: 100%;
+    }
+    .card-one{
+        width: 100%;
+    }
+    .card-one img{
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .card-two{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        gap: 7px;
+    }
+    .card-two #title-style{
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        margin-bottom: 5px;
+        margin-left: 2px;
+    }
+    .card-two h1 {
+        margin-bottom: 10px;
+    }
+    .card-two p{
+        margin-bottom: 10px;
+    }
+    .infomation-desktop{
+        display: none;
+    }
+    .information-mobile{
+        display: block;
+    }
+    .info-price{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+    .info-price #price-style{
+        font-size: 35px;
+        color: #336e57;
+        font-weight: bold;
+    }
+    .info-price #promotion{
+        text-decoration: line-through;
+    }
+    .button {
+        width: 100%;
+        display: flex;
+    }
+    .button button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        height: 50px;
+        border-radius: 15px;
+        border: none;
+        background-color: #336e57;
+        color: #ffffff;
+        font-weight: bold;
+        cursor: pointer;
+    }    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .card-one .desktop-image{
+        display: none;
+    }
+    .card-one .mobile-image{
+        display: flex;
+    }
+}

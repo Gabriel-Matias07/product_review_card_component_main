@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #F0F0F0;
+    overflow: hidden;
+}
+.container{
+    width: 1440px;
+    height: 80vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 4px 4px 70px #c3c3c3;
+    background-color: #F3EAE3;
+}
+.main-card{
+    width: 75vh;
+    height: 55vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 4px 4px 30px #c3c3c3;
+    background-color: #FFFFFF;
+}
+.card-one{
+    width: 100%;
+    height: 100%;
+}
+.card-one .desktop-image{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.card-one .mobile-image{
+    display: none;
+}
+.information-mobile{
+    display: none;
+}
+.card-two{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    row-gap: 35px;
+    margin-left: 40px;
+    margin-right: 40px;
+    flex-direction: column;
+}
+.card-two #title-style{
+    text-transform: uppercase;
+    letter-spacing: 5px ;
+}
+.card-two h1{
+    font-size: 35px;
+}
+.card-two #description{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-top: 17px;
+}
+.card-two .info-price{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    gap: 25px;
+}
+.card-two #price-style{
+    font-size: 40px;
+    color: #336e57;
+    font-weight: bold;
+}
+.card-two #promotion{
+    text-decoration: line-through;
+    font-weight: 500;
+}
+.button {
+    width: 100%;
+    display: flex;
+    
+}
+.button button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 85%;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: #336e57;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
